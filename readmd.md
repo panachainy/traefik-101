@@ -15,4 +15,4 @@
 
 ## Example
 
-[Official Example](official-example/traefik.yml)
+[Docker Official Example](docker-official-example/traefik.yml)
