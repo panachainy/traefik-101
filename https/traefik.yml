@@ -1,0 +1,15 @@
+# Docker configuration backend
+providers:
+  docker:
+    defaultRule: "Host(`{{ trimPrefix `/` .Name }}.docker.localhost`)"
+
+# API and dashboard configuration
+api:
+  insecure: true
+
+entryPoints:
+  websecure:
+    address: ":443"
+    http:
+      tls:
+        certResolver: leresolver
