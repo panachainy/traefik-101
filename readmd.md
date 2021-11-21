@@ -12,3 +12,7 @@
 ## Traefik routing to various docker containers
 
 - [Link](https://github.com/DoTheEvo/Traefik-v2-examples#1-traefik-routing-to-various-docker-containers)
+
+## Example
+
+[Official Example](official-example/traefik.yml)
